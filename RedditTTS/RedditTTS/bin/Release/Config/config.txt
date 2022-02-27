@@ -1,0 +1,19 @@
+outputPath:Output
+tempPath:Temp
+assetsPath:Assets
+exportsPath:Exports
+commentTemplatePath:Assets/CommentTemplate.html
+postTemplatePath:Assets/PostTemplate.html
+staticIntermissionPath:Assets/StaticIntermission.mp4
+backgroundAssetsPath:Assets/backgrounds.txt
+commentImagesPath:Temp/CommentImages
+commentVideosPath:Temp/CommentVideos
+commentAudiosPath:Temp/CommentAudios
+ffmpegPath:ffmpeg/bin/ffmpeg.exe
+intermissionPath:Assets/StaticIntermission.avi
+imageWidth:1920
+imageHeight:1080
+imageFormat:png
+//png or jpg
+defaultBackgroundMusic:https://incompetech.com/music/royalty-free/mp3-royaltyfree/Thief%20in%20the%20Night.mp3
+videoFormat:avi

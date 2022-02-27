@@ -1,0 +1,220 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<body>
+<div class = "commentbox centered">
+<span class = "vote siblings">
+    <p><icon class = "icon icon-upvote"></icon></p>
+    <p><b class = "points">%POINTS%</b></p>
+<p><icon class = "icon icon-downvote"></icon></p>
+    
+    
+    </span>
+<div class = "mainPost siblings">
+<p>
+    <span class = "points">%SUBREDDIT% ·</span>
+    <span class="gray">Posted by</span>
+<span class = "author">u/%AUTHOR%</span>
+<span class = "ago"> %AGO%</span>
+    <span class = "awards">%AWARDS%</span>
+</p>
+<p>
+<b class = "title">
+%TITLE%
+</b>
+</p>
+<p>
+<span class = "body">
+%BODY%
+</span>
+</p>
+    <p>
+        <span class = "icon icon-reply"></span><span class = "controls">&nbsp&nbsp%COMMENTS% Comments</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <span class = "icon icon-award"></span><span class = "controls">&nbsp&nbspAward</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <span class = "icon icon-share"></span><span class = "controls">&nbsp&nbspShare</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <span class = "icon icon-save"></span><span class = "controls">&nbsp&nbspSave</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <span class = "icon icon-hide"></span><span class = "controls">&nbsp&nbspHide</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <span class = "icon icon-report"></span><span class = "controls">&nbsp&nbspReport</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+    </p>
+</div>
+</div>
+</body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+<style>
+    .commentbox{
+        font-family: "Noto Sans", Arial, sans-serif;
+word-break: break-word;
+overflow-wrap: break-word;
+text-rendering: geometricPrecision;
+padding-left:24px;
+padding-right:24px;
+background-color: rgb(44,44,62);
+        width:1600px;
+padding-left:24px;
+padding-right:32px;
+padding-top:8px;
+padding-bottom:8px;
+border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.6);
+        text-align: left;
+    }
+    .centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+    .no-height{
+             line-height: 0px;   
+    }
+.author{
+color: #7094cf;
+font-family: 'IBM Plex Sans', sans-serif;
+    font-size:24px;
+}
+.body{
+color: #D7DADC;
+    font-size:28px;
+    line-height:32px;
+}
+    .ago{
+        color:#818384;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size:24px;
+    }
+    .gray{
+                color:#818384;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size:24px;
+    }
+    .points{
+        color: #D7DADC;
+            font-family: 'IBM Plex Sans', sans-serif;
+        font-size:24px;
+    }
+    .controls{
+        color:#818384;
+font-size:24px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        top:-8px;
+    }
+    .upvote{
+        height:40px;
+        width:40px;
+        position:relative;
+        top:11px
+    }
+    .downvote{
+                height:40px;
+        width:40px;
+            position:relative;
+        top:11px
+    }
+    .reply{
+                height:40px;
+        width:40px;
+            position:relative;
+        top:12px;
+        right:5px;
+    }
+    .awards{
+                color:#818384;
+                font-size:20;
+        position:relative;
+        top:3px;
+    }
+    .award{
+        height:24px;
+        width:28px;
+        
+    }
+    .awardlabel{
+        position:relative;
+                font-family: 'IBM Plex Sans', sans-serif;
+        top:-6;
+        left:2px;
+    }
+    .vote{
+    position: relative;
+    right:20px;
+    text-align: center;
+        width:10%;
+    }
+    .siblings{
+        float: left;
+        display:inline;
+    }
+    .mainPost{
+        width:90%;
+        position: relative;
+    right:20px;
+    }
+    .title{
+    color: #D7DADC;
+        font-size:40px;
+                font-family: 'IBM Plex Sans', sans-serif;
+    }
+    hidden{
+        color:transparent;
+    }
+body{
+zoom: 1;
+text-align: center;
+justify-content: center;
+background: url(%BACKGROUND%) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+hyperlink{
+text-decoration: underline;
+color: #4FBCFF;
+    }
+    .icon{
+           font-family: redditIcons;
+                color:#818384;
+        font-size:40px;
+        width:40px;
+        height:40px;
+    }
+    .icon-upvote{
+        //content:"\f2d8e";
+        content:url(https://i.ibb.co/xLtz4YZ/upvote.png);
+    }
+    .icon-downvote{
+        //content:"\f17e";
+        content:url(https://i.ibb.co/LvFPQTC/downvote.png);
+    }
+    .icon-reply{
+        //content:"\f15e";
+        content:url(https://i.ibb.co/YZQV2w6/comment.png);
+    }
+    .icon-award{
+        //content:"\f11f";
+        content:url(https://i.ibb.co/PgPRqrS/award.png);
+    }
+    .icon-share{
+        //content:"\f253";
+        content:url(https://i.ibb.co/pyZrwQh/share.png);
+    }
+    .icon-save{
+        //content:"\f245";
+        content:url(https://i.ibb.co/B2xN4NV/save.png);
+    }
+    .icon-hide{
+        //content:"\f1a1";
+        content:url(https://i.ibb.co/K5fJKMc/hide.png);
+    }
+    .icon-report{
+        //content:"\f235";
+        content:url(https://i.ibb.co/7tL81BF/report.png);
+    }
+    @font-face {
+   font-family: redditIcons;
+   src: url(https://www.redditstatic.com/desktop2x/fonts/redesignIcon2020/redesignFont2020.c250640b7cb55d35a029113074ff232a.woff);
+    }
+</style>
